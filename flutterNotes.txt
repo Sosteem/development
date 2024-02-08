@@ -1,0 +1,8 @@
+to make the file flutter first we need to naviage to the folder
+then
+check if all the required tools are installe dusing "flutter doctor"
+then
+run create flutter "file_name_you_wanna_create"
+then 
+open "lib"
+open "main.dart"
