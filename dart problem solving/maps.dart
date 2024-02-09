@@ -1,5 +1,3 @@
-import 'dart:collection';
-
 void main() {
   Map<String, String> myDetails = {
     "name": "suace",
