@@ -1,0 +1,1 @@
+Dart with frameworks like Aqueduct or Angel: Since Flutter uses Dart, you can use Dart on the server side as well. Frameworks like Aqueduct or Angel provide a way to build server-side applications with Dart.
