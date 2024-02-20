@@ -120,9 +120,9 @@ void main() {
   print(allDrinks);
 
   //conditions in list
-  bool happy = false;
-  var cart = ['donut', 'pastry', if (happy) 'cake'];
-  print("$cart");
+  //bool happy = false;
+  //var cart = ['donut', 'pastry', if (happy) 'cake'];
+  //print("$cart");
 
   //where in the dart
   List<int> even = allDrinks.where((allDrinks) => allDrinks.isEven).toList();
