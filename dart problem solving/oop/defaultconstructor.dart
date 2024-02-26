@@ -9,4 +9,5 @@ class Laptop {
 
 void main() {
   Laptop laptop = Laptop();
+  laptop.name = "happy";
 }
