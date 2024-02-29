@@ -1,6 +1,8 @@
 class Student {
   int? _age;
   String? _name;
+  final String _school =
+      "ABC Schooll"; //read only method yesma chai final vako vara hamle set garirakhna pardaina get matra gare pugchha
   String getName() {
     return this._name!;
   }
@@ -9,12 +11,21 @@ class Student {
     return this._age!;
   }
 
+  //getter to get school  name
+  String getSchoolName() {
+    return this._school;
+  }
+
   void setName(String name) {
     this._name = name;
   }
 
   void setAge(int age) {
-    this._age = age;
+    if (age > 0) {
+      this._age = age;
+    } else {
+      this._age = 0;
+    }
   }
 }
 
