@@ -17,6 +17,13 @@ abstract class Classname {
 //Example 1: Abstract Class In Dart
 //In this example below, there is an abstract class Vehicle with two abstract methods start() and stop().
 //The subclasses Car and Bike implement the abstract methods and override them to print the message.
+/*
+Key Points To Remember
+You can’t create an object of an abstract class.
+It can have both abstract and non-abstract methods.
+It is used to define the behavior of a class that other classes can inherit.
+Abstract method only has a signature and no implementation.
+ */
 
 abstract class Vehicle {
   start();
