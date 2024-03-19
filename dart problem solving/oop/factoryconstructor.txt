@@ -1,0 +1,16 @@
+Factory Constructor In Dart
+all the constructor we have studied until now is generative constructor.Dart also provides a special type of constructor called factory constructor.
+A factory constructor gives more flexibility to create an object. Generative constructors only create an instance of the class. 
+But, the factory constructor can return an instance of the class or even subclass.
+ It is also used to return the cached instance of the class.
+
+
+
+ Rules For Factory Constructors
+ Factory constructor must return an instance of the class or sub-class.
+ You can’t use this keyword inside factory constructor.
+ It can be named or unnamed and called like normal constructor.
+ It can’t access instance members of the class.
+
+ Note: An initializer list allows you to assign properties to a new instance variable before the constructor body runs, but after creation.
+
